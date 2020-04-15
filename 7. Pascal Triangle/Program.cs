@@ -14,7 +14,7 @@ namespace _7._Pascal_Triangle
                 var cols = row + 1;
                 for (int col = 0; col < cols; col++)
                 {
-                    if (row == 0 || col == 0 || col == cols - 1)
+                    if (col == 0 || col == cols - 1)
                     {
                         jagArr[row][col] = 1;
                     }
